@@ -1,0 +1,12 @@
+name: EventStartItemTeleporter
+version: '${project.version}'
+main: me.technyk.eventstartitemteleporter.EventStartItemTeleporter
+api-version: 1.16
+authors: [ technyk ]
+description: An item which teleports you onto a location which was set by a command
+website: https://github.com/technyk
+commands:
+  teleitemgive:
+    description: Gives you the item to teleport with
+  teleitemset:
+    description: Sets the teleport location to your location
